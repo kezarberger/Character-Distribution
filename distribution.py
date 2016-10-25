@@ -42,4 +42,5 @@ for a in alph:
     geronimo = wsgd.count(a)
     if geronimo != 0:
         print (geronimo)
-    for x in    
+    for x in geronimo:
+        pirnt (a in alph)
