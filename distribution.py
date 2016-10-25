@@ -43,4 +43,4 @@ for a in alph:
     if geronimo != 0:
         print (geronimo)
     for x in geronimo:
-        pirnt (a in alph)
+        print (a in alph)
