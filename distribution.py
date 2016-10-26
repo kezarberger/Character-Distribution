@@ -41,6 +41,8 @@ alph = ("a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r",
 for a in alph:
     geronimo = wsgd.count(a)
     if geronimo != 0:
-        print (geronimo)
-    for x in geronimo:
-        print (a in alph)
+        sat = ' '
+        for y in range(geronimo):
+            sat = sat + (a)
+        print (sat)
+    x
