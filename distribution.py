@@ -49,7 +49,7 @@ for a in alph:
     for i in range(26):
         jum = 0
         while jum < len(meow):
-            if len(meow[jum]) < len(meow[jum+1]) and jum < (len(meow)-1):
+            if len(meow[jum]) < len(meow[jum+1]):
                 wad = meow[jum]
                 meow[jum] = meow[jum+1]
                 meow[jum+1] = wad
