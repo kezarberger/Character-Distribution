@@ -53,5 +53,6 @@ for a in alph:
                 wad = meow[jum]
                 meow[jum] = meow[jum+1]
                 meow[jum+1] = wad
+                jum += 1
     for c in meow:
         print (c)
