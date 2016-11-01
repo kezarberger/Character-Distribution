@@ -49,13 +49,13 @@ for a in alph:
         meow = list(meow)
 print(meow)
 
-for i in range(26):
-    jum = 0
-    while jum < len(meow):
-        if len(meow[jum]) < len(meow[jum+1]):
-            wad = meow[jum]
-            meow[jum] = meow[jum+1]
-            meow[jum+1] = wad
-            jum += 1
+#for i in range(26):
+jum = 0
+while jum < len(meow):
+    if len(meow[jum]) < len(meow[jum+1]):
+        wad = meow[jum]
+        meow[jum] = meow[jum+1]
+        meow[jum+1] = wad
+        jum += 1
 
        
