@@ -47,15 +47,12 @@ for a in alph:
             sat = sat + (a)
         meow.append(sat)
         meow = list(meow)
-print(meow)
 
-#for i in range(26):
-jum = 0
-while jum < len(meow):
+    for i in range(26):
+    jum = 0
+while jum < len(meow)-1:
     if len(meow[jum]) < len(meow[jum+1]):
         wad = meow[jum]
         meow[jum] = meow[jum+1]
         meow[jum+1] = wad
         jum += 1
-
-       
