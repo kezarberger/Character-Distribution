@@ -44,20 +44,16 @@ for a in alph:
     geronimo = wsgd.count(a)
     if geronimo != 0:
         sat = ''
-    for y in range(geronimo):
-        sat = sat + (a)
-    print (sat)
-    meow.append(sat)
-    meow = list(meow)   
-print (sat)
-#for i in range(26):
-jum = 0
-while jum < len(meow)-1:
-    if len(meow[jum]) < len(meow[jum+1]):
-        wad = meow[jum]
-        meow[jum] = meow[jum+1]
-        meow[jum+1] = wad
-        jum += 1
+        for y in range(geronimo):
+            sat = sat + (a)
+        print (sat)
+meow.append(sat)
+for i in range(26):
+    jum = 0
+    while jum < len(meow)-1:
+        if len(meow[jum]) < len(meow[jum+1]):
+            wad = meow[jum]
+            meow[jum] = meow[jum+1]
+            meow[jum+1] = wad
+            jum += 1
 print (meow)
-
-    
