@@ -47,7 +47,7 @@ for a in alph:
         for y in range(geronimo):
             sat = sat + (a)
         print (sat)
-    meow.append(sat)
+        meow.append(sat)
 print(meow)
 
 """
