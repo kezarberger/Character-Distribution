@@ -42,12 +42,15 @@ alph = ("a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r",
 meow = []
 for a in alph:
     geronimo = wsgd.count(a)
+    sat = ''
     if geronimo != 0:
-        sat = ''
         for y in range(geronimo):
             sat = sat + (a)
         print (sat)
-meow.append(sat)
+    meow.append(sat)
+print(meow)
+
+"""
 for i in range(26):
     jum = 0
     while jum < len(meow)-1:
@@ -56,4 +59,4 @@ for i in range(26):
             meow[jum] = meow[jum+1]
             meow[jum+1] = wad
             jum += 1
-print (meow)
+"""
