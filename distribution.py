@@ -37,7 +37,7 @@ Notice about this example:
 * Letters that do not occur in the text are not listed in the output at all.
 """
 wsgd = input("Please enter a string of text (the bigger the better): ")
-print ("The distribution of characters in "" + wsgd + "" is: ")
+print ('The distribution of characters in "' + wsgd + '" is: ')
 alph = ("a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z")
 meow = []
 for a in alph:
